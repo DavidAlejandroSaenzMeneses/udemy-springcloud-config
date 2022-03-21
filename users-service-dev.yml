@@ -20,4 +20,5 @@ logging:
       hibernate:
         SQL: debug
 
-# spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+example:
+  hello: hello
