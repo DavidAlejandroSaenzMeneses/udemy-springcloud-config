@@ -6,4 +6,4 @@ config:
         id: ui-shopping-app
         secret: secret123
       jtw:
-        key: key_ui_shopping_app_2022
+        key: key_ui_shopping_app_2022_03_20
