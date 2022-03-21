@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: "jdbc:postgresql://localhost:5432/db_springboot_cloud"
-    username: postgres
-    password: sasa
+    url: "jdbc:postgresql://localhost:5432/quarkus_test"
+    username: quakurs_test
+    password: quarkus_test
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQL95Dialect
