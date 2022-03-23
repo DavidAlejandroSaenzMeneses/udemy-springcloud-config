@@ -1,18 +1,10 @@
 spring:
-  jpa:
-    database: postgresql
-    show-sql: true
-    hibernate:
-      ddl-auto: create-drop
   datasource:
-    platform: postgres
-    url: jdbc:postgresql://localhost:5432/quarkus_test
-    username: quarkus_test
-    password: quarkus_test
-    driverClassName: org.postgresql.Driver
-
-logging:
-  level:
-    org:
-      hibernate:
-        SQL: debug
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud
+    username: springcloud
+    password: 123
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
