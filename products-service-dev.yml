@@ -1,10 +1,11 @@
 spring:
   datasource:
-    driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springcloud
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud?serverTimezone=America/Santiago&allowPublicKeyRetrieval=true&useSSL=false
     username: springcloud
     password: 123
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true
+    databasePlatform:  org.hibernate.dialect.MySQL8Dialect
