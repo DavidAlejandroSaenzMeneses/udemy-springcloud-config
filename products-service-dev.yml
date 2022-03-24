@@ -6,10 +6,10 @@ spring:
     username: demo
     password: demo
   jpa:
-    hibernate.ddl-auto: update
+    hibernate.ddl-auto: create-drop
     generate-ddl: true
     show-sql: true
-    #databasePlatform:  org.hibernate.dialect.MySQL8Dialect
+    databasePlatform:  org.hibernate.dialect.MariaDB103Dialect
 #spring.datasource.password=sasa
 #spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 #spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
