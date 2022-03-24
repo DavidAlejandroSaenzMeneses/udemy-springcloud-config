@@ -7,7 +7,7 @@ spring:
   datasource:
     # schema: classpath:/schema.sql
     platform: postgres
-    url: jdbc:postgresql://localhost:5432/quarkus_test
+    url: jdbc:postgresql://springcloud-postgres:5432/quarkus_test
     username: quarkus_test
     password: quarkus_test
     driverClassName: org.postgresql.Driver
